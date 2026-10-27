@@ -1,0 +1,21 @@
+name: neuromorphic_mipt
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      # NVIDIA GPU build for Linux; CUDA runtime libraries are installed by pip.
+      - --extra-index-url https://download.pytorch.org/whl/cu126
+      - torch==2.9.1+cu126
+      - torchvision==0.24.1+cu126
+      - spikingjelly==0.0.0.0.14
+      - numpy>=2.2,<2.3
+      - pandas>=2.3,<2.4
+      - matplotlib>=3.10,<3.11
+      - pillow>=11,<12
+      - tqdm>=4.67,<5
+      - gdown>=5.2,<6
+      - jupyterlab>=4.4,<5
+      - ipykernel>=6.29,<7
+      - ipywidgets>=8.1,<9

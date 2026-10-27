@@ -1,0 +1,7 @@
+lectures
+
+# Local notebook artifacts and downloaded datasets.
+.ipynb_checkpoints/
+__pycache__/
+data/
+results/
