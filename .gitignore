@@ -4,4 +4,8 @@ lectures
 .ipynb_checkpoints/
 __pycache__/
 data/
-results/
+results/*
+!results/*.csv
+!results/*.png
+!results/report.md
+!results/experiment.json

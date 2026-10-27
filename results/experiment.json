@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "fast_mode": true,
+  "T": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024
+  ],
+  "calibration_images": 128,
+  "classification_images": 128,
+  "segmentation_train_images": 64,
+  "segmentation_test_images": 16,
+  "segmentation_size": 128,
+  "decoder_epochs": 50,
+  "folding_max_abs_error": 1.3055900820457822e-06
+}
